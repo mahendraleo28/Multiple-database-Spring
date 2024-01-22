@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "second.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'second.datasource.driver-class-name'"
+  },
+  {
+    "name": "second.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'second.datasource.password'"
+  },
+  {
+    "name": "second.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'second.datasource.url'"
+  },
+  {
+    "name": "second.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'second.datasource.username'"
+  },
+  {
+    "name": "third.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'third.datasource.url'"
+  },
+  {
+    "name": "third.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'third.datasource.driver-class-name'"
+  },
+  {
+    "name": "third.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'third.datasource.username'"
+  },
+  {
+    "name": "third.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'third.datasource.password'"
+  }
+]}
