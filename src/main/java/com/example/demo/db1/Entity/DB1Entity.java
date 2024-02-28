@@ -9,9 +9,12 @@ import jakarta.persistence.Table;
 @Table(name = "db1user" , schema = "db1" )
 public class DB1Entity {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String name;
+	private String email;
+	private String phone;
+	
 	public int getId() {
 		return id;
 	}
@@ -23,6 +26,18 @@ public class DB1Entity {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 
 }
